@@ -14,6 +14,12 @@ type Translations = {
       ctaQuote: string;
       ctaCall: string;
     };
+    trust: {
+      hours: string;
+      area: string;
+      wechat: string;
+      honest: string;
+    };
     intro: {
       heading: string;
       body: string;
@@ -96,9 +102,15 @@ export const translations: Record<Language, Translations> = {
         ctaQuote: "Get a Free Quote",
         ctaCall: "Call Now",
       },
+      trust: {
+        hours: "Emergency calls until 10 PM",
+        area: "Serving all of Ottawa",
+        wechat: "Reach us on WeChat",
+        honest: "Honest upfront pricing",
+      },
       intro: {
         heading: "Trusted Local Plumbing, Done Right",
-        body: "With years of hands-on experience, Zeno Yuan and the 美嘉装修 team provide honest, reliable plumbing services for homes across Ottawa. From small repairs to full installations, every job gets done with care and attention to detail.",
+        body: "With years of hands-on experience, Zeno Yuan provides honest, reliable plumbing services for homes across Ottawa. From small repairs to full installations, every job gets done with care and attention to detail.",
       },
       servicesPreview: {
         heading: "What We Do",
@@ -230,6 +242,12 @@ export const translations: Record<Language, Translations> = {
         subtitle: "渥太华地区可靠、专业的水管维修服务",
         ctaQuote: "免费报价",
         ctaCall: "立即致电",
+      },
+      trust: {
+        hours: "紧急服务至晚上10点",
+        area: "服务渥太华全区",
+        wechat: "微信随时联系",
+        honest: "价格透明诚实",
       },
       intro: {
         heading: "值得信赖的本地水管服务",
