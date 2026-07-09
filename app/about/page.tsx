@@ -24,9 +24,11 @@ export default function About() {
 
       {/* Story section */}
       <section className="max-w-6xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-16 items-center">
-        <div className="bg-brand-grey border-2 border-dashed border-brand-brown/25 rounded-2xl h-80 flex items-center justify-center text-brand-brown/40 font-medium text-sm order-1 md:order-none">
-          Photo of Zeno — coming soon
-        </div>
+        <img
+          src="/images/aboutme.jpg"
+          alt="Zeno Yuan — Meijia Plumbing"
+          className="rounded-2xl object-cover w-full h-80 order-1 md:order-none"
+        />
         <div>
           <p className="text-brand-brown font-bold text-xs uppercase tracking-[0.2em] mb-3">
             Our Story

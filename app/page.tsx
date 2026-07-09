@@ -91,9 +91,11 @@ export default function Home() {
             Learn more →
           </Link>
         </div>
-        <div className="bg-brand-grey border-2 border-dashed border-brand-brown/25 rounded-2xl h-80 flex items-center justify-center text-brand-brown/40 font-medium text-sm">
-          Photo of Zeno — coming soon
-        </div>
+        <img
+          src="/images/plumbingmain.png"
+          alt="Zeno Yuan — Meijia Plumbing"
+          className="rounded-2xl object-contain w-full max-h-[500px] order-1 md:order-none"
+        />
       </section>
 
       {/* Services preview */}
@@ -136,7 +138,12 @@ export default function Home() {
           Recent Projects
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {[1, 2, 3, 4].map((n) => (
+          <img
+            src="/images/shower.jpg"
+            alt="Completed bathroom installation"
+            className="rounded-2xl aspect-square object-cover w-full"
+          />
+          {[2, 3, 4].map((n) => (
             <div
               key={n}
               className="bg-brand-grey border-2 border-dashed border-brand-brown/25 rounded-2xl aspect-square flex items-center justify-center text-brand-brown/40 text-sm font-medium"
