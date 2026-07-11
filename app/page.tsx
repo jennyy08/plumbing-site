@@ -138,17 +138,18 @@ export default function Home() {
           Recent Projects
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <img
-            src="/images/shower.jpg"
-            alt="Completed bathroom installation"
-            className="rounded-2xl aspect-square object-cover w-full"
-          />
-          {[2, 3, 4].map((n) => (
-            <div
-              key={n}
-              className="bg-brand-grey border-2 border-dashed border-brand-brown/25 rounded-2xl aspect-square flex items-center justify-center text-brand-brown/40 text-sm font-medium"
-            >
-              Photo {n}
+          {[
+            { src: "/images/shower.jpg", alt: "Bathroom shower and toilet installation" },
+            { src: "/images/bathroom.jpg", alt: "Bathroom plumbing work" },
+            { src: "/images/dishwasher.jpg", alt: "Dishwasher installation" },
+            { src: "/images/kitchen.jpg", alt: "Kitchen plumbing installation" },
+          ].map((photo, i) => (
+            <div key={i} className="rounded-2xl overflow-hidden aspect-square">
+              <img
+                src={photo.src}
+                alt={photo.alt}
+                className="w-full h-full object-cover"
+              />
             </div>
           ))}
         </div>

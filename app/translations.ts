@@ -118,7 +118,7 @@ export const translations: Record<Language, Translations> = {
         items: [
           { title: "Leak Repair", description: "Fast, reliable fixes for leaking pipes and fixtures." },
           { title: "Drain Cleaning", description: "Clearing clogged drains and pipes quickly and safely." },
-          { title: "Water Heater Installation", description: "Installation and replacement of water heaters." },
+          { title: "Valve Repair & Replacement", description: "Repairing and replacing shut-off, pressure, and other plumbing valves." },
           { title: "Fixture Installation", description: "Sinks, toilets, faucets, and more, installed properly." },
         ],
       },
@@ -259,7 +259,7 @@ export const translations: Record<Language, Translations> = {
         items: [
           { title: "漏水维修", description: "快速可靠地修复漏水管道和器具。" },
           { title: "下水道清理", description: "快速安全地清理堵塞的下水道和管道。" },
-          { title: "热水器安装", description: "热水器的安装与更换服务。" },
+          { title: "阀门维修与更换", description: "专业维修和更换截止阀、减压阀及各类管道阀门。" },
           { title: "卫浴设备安装", description: "水槽、马桶、水龙头等设备的专业安装。" },
         ],
       },

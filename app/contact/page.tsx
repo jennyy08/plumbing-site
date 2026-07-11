@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useLanguage } from "../context/LanguageContext";
 
-const WECHAT_ID = "6136171688";
+const WECHAT_ID = "16136171688";
 const FORMSPREE_URL = "https://formspree.io/f/mnjyoyzw";
 const MIN_WORDS = 10;
 
@@ -110,22 +110,22 @@ export default function Contact() {
         </div>
 
         {/* Service area note */}
-        <p className="mt-8 text-sm text-brand-dark/60 text-center max-w-2xl mx-auto leading-relaxed">
+        <p className="mt-4 text-sm text-brand-dark/60 text-center max-w-2xl mx-auto leading-relaxed">
           {t.contactPage.areaNote}
         </p>
-      </section>
+        </section>
 
       {/* Form */}
-      <section className="bg-brand-grey pt-2 pb-16 md:pb-20">
+      <section className="bg-brand-grey pt-12 pb-12 md:pb-20">
         <div className="max-w-md mx-auto px-6">
-          <p className="text-brand-brown font-bold text-xs uppercase tracking-[0.2em] mb-2 text-center">
+          <p className="text-brand-brown font-bold text-xs uppercase tracking-[0.2em] mb-1 text-center">
             Prefer to Write?
           </p>
-          <h2 className="text-3xl font-black text-brand-navy text-center mb-8">
+          <h2 className="text-3xl font-black text-brand-navy text-center mb-1">
             {t.contactPage.formHeading}
           </h2>
 
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form onSubmit={handleSubmit} className="space-y-4 pt-4">
             <div>
               <label htmlFor="name" className="block text-sm font-bold text-brand-navy mb-1">
                 {t.contactPage.formName}
