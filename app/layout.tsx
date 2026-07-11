@@ -13,6 +13,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "美嘉装修 | Meijia Plumbing - Ottawa",
   description: "Reliable plumbing services across Ottawa, ON",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
